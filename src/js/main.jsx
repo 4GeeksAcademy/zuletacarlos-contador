@@ -1,7 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
-//Bootstrap
+
+// Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap"
 
@@ -19,5 +21,6 @@ setInterval(() => {
       <Home seconds={segundos} />
     </React.StrictMode>
   );
-  segundos = segundos + 1;
+  segundos++;
 }, 1000);
+
